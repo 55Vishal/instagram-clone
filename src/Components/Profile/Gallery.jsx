@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+import getPhotoUrl from 'get-photo-url'
 import pexels1 from '../assets/pexels1.webp'
 import pexels2 from '../assets/pexels2.webp'
 import pexels3 from '../assets/pexels3.jpeg'
@@ -10,41 +12,34 @@ import pexels8 from '../assets/pexels8.jpeg'
 import pexels9 from '../assets/pexels9.webp'
 
 function Gallery() {
+
+const [allPhotos, setAllPhotos] = useState([])
+
+const addPhoto = async()=>{
+   const newPhoto = {
+    id: Date.now(),
+    url: await getPhotoUrl('#addPhotoInput')
+   }
+   setAllPhotos([...allPhotos, newPhoto])
+}
+  
   return (
     <>
-    <input type="file" name='photo' id='addPhotoInput'/>
-    <label htmlFor="addPhotoInput">
-    <i className="add-photo-button fa-solid fa-circle-plus"></i>
-    </label>
-    <section className='gallery'>
-    <div className='item'>
-    <img className='item-image' src={pexels1} alt="" />
-    </div>
-    <div className='item'>
-    <img className='item-image' src={pexels2} alt="" />
-    </div>
-    <div className='item'>
-    <img className='item-image' src={pexels3} alt="" />
-    </div>  <div className='item'>
-    <img className='item-image' src={pexels4} alt="" />
-    </div>  <div className='item'>
-    <img className='item-image' src={pexels5} alt="" />
-    </div>  <div className='item'>
-    <img className='item-image' src={pexels6} alt="" />
-    </div>  
-    <div className='item'>
-    <img className='item-image' src={pexels7} alt="" />
-    </div>  
-    <div className='item'>
-    <img className='item-image' src={pexels8} alt="" />
-    </div> 
-     <div className='item'>
-    <img className='item-image' src={pexels9} alt="" />
-    </div> 
+      <input type="file" name='photo' id='addPhotoInput' />
+      <label htmlFor="addPhotoInput" onClick={addPhoto}>
+        <i className="add-photo-button fa-solid fa-circle-plus"></i>
+      </label>
+      <section className='gallery'>
+      {allPhotos.map((photo)=>(
 
-    </section>
+        <div className='item' key={photo.id}>
+          <img className='item-image' src={photo.url} alt="" />
+          <button className='delete-button'>Delete</button>
+        </div>
+      ))}  
+      </section>
     </>
   )
 }
 
-export default Gallery
+export default Gallery;

@@ -36,10 +36,6 @@ function Bio() {
             <button className='cancel-button' type='button' onClick={() => setEditFormIsOpen(false)}>Cancel</button>
         </form>
     )
-    
-   
-  
-    
 
     return (
         <section className='bio'>

@@ -28,7 +28,7 @@ nav {
   text-decoration: none;
 }
 
-.logo > img {
+.logo>img {
   vertical-align: middle;
 }
 
@@ -51,7 +51,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
+ 
 .nav-links i {
   transform: scale(1.6);
   color: #252525;

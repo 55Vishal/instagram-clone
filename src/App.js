@@ -1,12 +1,16 @@
 import './App.css';
 
-import Profile from './Components/Profile/Profile';
+import Home from './Components/Home_page/Home';
+
+// import Profile from './Components/Profile/Profile';
 
 function App() {
-  const name='Vishal'
+  
   return (
     <div className="App">
-    <Profile /> 
+      {/*<Profile />*/}
+      <Home />
+
     </div>
   );
 }

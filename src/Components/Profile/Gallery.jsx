@@ -1,15 +1,6 @@
 import React, { useState } from 'react'
 
 import getPhotoUrl from 'get-photo-url'
-import pexels1 from '../assets/pexels1.webp'
-import pexels2 from '../assets/pexels2.webp'
-import pexels3 from '../assets/pexels3.jpeg'
-import pexels4 from '../assets/pexels4.jpeg'
-import pexels5 from '../assets/pexels5.jpeg'
-import pexels6 from '../assets/pexels6.jpeg'
-import pexels7 from '../assets/pexels7.jpeg'
-import pexels8 from '../assets/pexels8.jpeg'
-import pexels9 from '../assets/pexels9.webp'
 
 function Gallery() {
 

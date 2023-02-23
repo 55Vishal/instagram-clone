@@ -59,9 +59,7 @@
   position: fixed;
   }
   
-  .sidebarOptionactive {
-    color: var(--twitter-color);
-  }
+ 
   
   .sidebar__tweet {
     width: 85%;

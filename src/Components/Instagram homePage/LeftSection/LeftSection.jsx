@@ -3,7 +3,7 @@ import { FaHashtag, FaHouseUser } from "react-icons/fa";
 
 import { CgMoreO } from "react-icons/cg";
 import { HiOutlineMail } from "react-icons/hi";
-import InstaLogo from '../assets/Instagram-title.png'
+import InstaLogo from '../../assets/Instagram-title.png'
 import React from "react";
 import { TbFileText } from "react-icons/tb";
 import { VscBellDot } from "react-icons/vsc";
@@ -36,7 +36,7 @@ function LeftSection() {
       <div className={style.container}>
         <div className={style.innerContainer}>
           <div className={style.innerContainer2}>
-            <div style={{ color: "lightBlue" }} className={style.logo}>
+            <div className={style.logo}>
             <img src={InstaLogo} alt="" />
             </div>
 

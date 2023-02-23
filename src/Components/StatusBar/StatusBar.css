@@ -1,0 +1,29 @@
+.statusbar__container{
+    height: 120px;
+    width:700px ;
+    background-color: white;
+    margin-top: 25px;
+    border: 2px solid white;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.statusbar__container::-webkit-scrollbar {
+    display: none ;
+}
+
+.statusbar__status{
+    min-width: 55px;
+    min-height: 55px;
+    border:3px solid rgb(250, 111, 135) ;
+}
+
+.status { 
+margin: 25px 10px;
+}
+.statusbar__text {
+    font-size: 12px;
+    max-width: 50px;
+    overflow-x: hidden;
+    text-align: center;
+}

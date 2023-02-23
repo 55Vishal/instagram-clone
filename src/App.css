@@ -1,5 +1,5 @@
 body {
-  background-color: #e8e5e5;
+  background-color: #fbf9f9;
   margin: 0;
 }
 
@@ -17,7 +17,7 @@ nav {
   display: grid;
   top: 0;
   background-color: #fff;
-  height: 3.3em;
+  height: 4.4em;
   line-height: 3.3em;
   width: 100%;
   border-bottom: 0.1em solid #dbdbdb;

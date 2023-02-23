@@ -5,14 +5,14 @@ function MainContent() {
   return (
     <div>
     <Grid container style={{marginTop: '6vh'}}>
-        <Grid item xs={2}>
-        One.
+        <Grid item xs={3}>
+        one
         </Grid>
-        <Grid item xs={6}>
-        Two.
+        <Grid item xs={5}>
+         two
         </Grid>
         <Grid item xs={2}>
-        Three
+        three
         </Grid>
         <Grid item xs={2}>
         Four.

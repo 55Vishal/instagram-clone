@@ -1,10 +1,13 @@
 import './Cards.css'
 
 import React from 'react'
+import Stories from '../Storie/Stories'
 
 function Cards() {
   return (
-    <div>Cards</div>
+    <div className='cards'>
+    <Stories />
+    </div>
   )
 }
 

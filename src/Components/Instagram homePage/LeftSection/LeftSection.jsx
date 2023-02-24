@@ -8,26 +8,20 @@ import React from "react";
 import { TbFileText } from "react-icons/tb";
 import { VscBellDot } from "react-icons/vsc";
 import style from './LeftSection.module.css'
+import { useNavigate } from "react-router-dom";
 
 function LeftSection() {
+  const nevigate = useNavigate();
 
 
   const menu = [
-    {
-      id: 1,
-      icon: <FaHouseUser />,
-      Name: <p>Home</p>,
-    },
+    {id: 1,icon: <FaHouseUser />,Name: <p>Home</p>,},
     { id: 2, icon: <FaHashtag />, Name: "Explore" },
     { id: 3, icon: <VscBellDot />, Name: "Notifications" },
     { id: 4, icon: <HiOutlineMail />, Name: "Message" },
     { id: 5, icon: <BsBookmark />, Name: "Bookmarks" },
     { id: 6, icon: <TbFileText />, Name: "Lists" },
-    {
-      id: 7,
-      icon: <BsPerson />,
-      Name: <p>Profile</p>,
-    },
+    { id: 7, icon: <BsPerson />, Name: <p onClick={()=> nevigate("/Profile") }>Profile</p> },
     { id: 8, icon: <CgMoreO />, Name: "More" },
   ];
 

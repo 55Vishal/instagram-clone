@@ -21,7 +21,6 @@ function Nav() {
             <i className='fas fa-compass'></i>
           </button>
           <button>
-            <i className='fas fa-heart'></i>
             <ProfileIcon />
           </button>
          

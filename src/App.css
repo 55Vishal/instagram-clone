@@ -107,12 +107,14 @@ nav {
 .profile-info .name {
   font-size: 1.7em;
   color: #545454;
-  margin-bottom: 0;
+  margin-bottom: 1.5vh;
 }
 
 .profile-info .about {
   font-size: 1.2em;
   color: #545454;
+  margin-bottom: 1.5vh;
+
 }
 
 .profile-info button {

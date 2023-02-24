@@ -1,0 +1,41 @@
+.profile{
+    margin-top: 5vh;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    margin-bottom: 0.85em;
+}
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1em;
+      min-width: 180px;
+    }
+      .accountName {
+        font-weight: bolder;
+        font-size:small;
+        margin-bottom: 5px;
+        color: black
+      }
+      .accountName:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      
+/*   
+      .caption {
+        color:rgb(160, 159, 159);
+      }
+      .caption.small {
+          font-size: 0.8em;
+        }
+      
+    
+  
+    a {
+      text-align: right;
+      width: 100%;
+    } */

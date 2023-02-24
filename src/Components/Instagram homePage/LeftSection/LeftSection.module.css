@@ -61,37 +61,23 @@
   
  
   
-  .sidebar__tweet {
-    width: 85%;
-    background-color: #1A8CD8;
-    border: none;
-    color: black;
-    font-weight: 900;
-    border-radius: 30px;
-    height: 3.12rem;
-    /* margin-top: 1.25rem;  } */
-  }
-  
+
   .sidebar {
     color: black;
     min-width: 15.6rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     margin-bottom: 1rem;
   }
   
   
-  
-  
-  .logo
-  {
+  .logo {
   font-weight: 800;
   color: rgb(231, 233, 234);
   padding: 0.2rem 0.5rem;
   margin-left: 1.01rem;
   margin-top: 3rem;
-  
   
   }
   .logo:hover{

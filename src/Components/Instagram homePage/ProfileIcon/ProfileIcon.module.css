@@ -1,0 +1,30 @@
+.profileIcon {
+    padding: 2px;
+    background: linear-gradient(200deg,
+            #da3394,
+            #e03c67,
+            #f3753b,
+            #f99b4a);
+    border-radius: 50%;
+}
+
+.profileIcon {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: block;
+   width: 40px;
+   height: 40px;
+   margin-left: 2vw;
+    margin-top: -3vh;
+    position: absolute;
+    top: 4.5vh;
+    left: 88vw;
+}
+.ProfileIcon__nav{
+
+    width: 25px;
+   height: 25px;
+}
+.profileIcon:hover{
+    cursor: pointer ;
+}

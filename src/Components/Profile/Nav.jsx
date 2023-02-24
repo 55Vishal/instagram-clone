@@ -1,3 +1,4 @@
+import ProfileIcon from '../Instagram homePage/ProfileIcon/ProfileIcon'
 import React from 'react'
 import instagramTitle from '../assets/Instagram-title.png'
 
@@ -21,7 +22,7 @@ function Nav() {
           </button>
           <button>
             <i className='fas fa-heart'></i>
-            
+            <ProfileIcon />
           </button>
          
         </span>

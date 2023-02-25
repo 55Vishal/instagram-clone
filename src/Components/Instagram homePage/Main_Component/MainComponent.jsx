@@ -1,29 +1,27 @@
 import Footer from '../Footer/Footer';
 import Grid from '@mui/material/Grid';
 import LeftSection from '../LeftSection/LeftSection';
-import Profile from '../Profile/Profile';
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar';
 import StatusBar from '../StatusBar/StatusBar';
-import Suggestions from '../Suggestions/Suggestions';
 
 function MainContent() {
   return (
     <div>
-    <Grid container style={{marginTop: '6vh'}}>
+      <Grid container style={{ marginTop: '6vh' }}>
         <Grid item xs={2}>
-        <LeftSection />
+          <LeftSection />
         </Grid>
         <Grid item xs={5}>
-        <StatusBar />
+         <StatusBar />
         </Grid>
         <Grid item xs={3}>
-        <Sidebar />
-     <Footer />
+          <Sidebar />
+          <Footer />
         </Grid>
         <Grid item xs={2}>
         </Grid>
-    </Grid>
+      </Grid>
     </div>
   )
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './ProfileIcon.module.css'
 import { useNavigate } from "react-router-dom";
 
 function ProfileIcon(props) {

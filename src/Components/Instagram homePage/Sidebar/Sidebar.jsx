@@ -1,6 +1,5 @@
 import './Sidebar.css'
 
-import Footer from '../Footer/Footer'
 import Profile from '../Profile/Profile'
 import React from 'react'
 import Sticky from 'react-sticky-el'

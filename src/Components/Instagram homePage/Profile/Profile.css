@@ -1,8 +1,7 @@
-.profile{
-    margin-top: 5vh;
-}
+
 
 .profile {
+  margin-top: 1vh;
     display: flex;
     align-items: center;
     font-size: 0.8em;

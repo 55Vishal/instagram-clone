@@ -11,6 +11,15 @@ button {
   transition: all 0.2s ease-in-out;
   border-radius: 5px;
 }
+.back-logo{
+  color: black;
+  position: absolute;
+  top: 10vh;
+  font-size: 2rem;
+  left: 3vw;
+  font-weight: bolder;
+}
+
 
 nav {
   position: fixed;
@@ -126,12 +135,14 @@ nav {
 }
 
 .profile-info button:hover {
-  background-color: #0081d6;
+  background-color: rgb(196, 190, 190);
+  color: black;
 }
 
 .edit-bio-form input {
-  width: 50%;
-  height: 2em;
+  display: flex;
+  width: 40%;
+  height: 3em;
   border: 0.1em solid #dbdbdb;
   border-radius: 0.2em;
   padding: 0.5em;
@@ -143,7 +154,7 @@ nav {
 }
 
 .edit-bio-form .cancel-button {
-  background-color: #890000;
+  background-color: #ee0a0acb;
 }
 
 #addPhotoInput {

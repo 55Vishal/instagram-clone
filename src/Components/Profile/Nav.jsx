@@ -1,8 +1,10 @@
 import ProfileIcon from '../Instagram homePage/ProfileIcon/ProfileIcon'
 import React from 'react'
+import image from '../assets/pexels1.webp';
 import instagramTitle from '../assets/Instagram-title.png'
 
 function Nav() {
+
   return (
     <div>
       <nav>
@@ -21,7 +23,7 @@ function Nav() {
             <i className='fas fa-compass'></i>
           </button>
           <button>
-            <ProfileIcon />
+            <ProfileIcon image={image} storyBorder={true} />
           </button>
          
         </span>

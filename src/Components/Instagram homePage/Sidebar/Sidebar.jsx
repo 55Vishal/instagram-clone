@@ -1,10 +1,26 @@
 import './Sidebar.css'
 
+import Footer from '../Footer/Footer'
+import Profile from '../Profile/Profile'
 import React from 'react'
+import Sticky from 'react-sticky-el'
+import Suggestions from '../Suggestions/Suggestions'
+import image from '../../assets/pexels1.webp'
 
 function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <Sticky topOffset={-80}>
+      <div className="sidebar">
+        <Profile
+          username="Vishal Malusare"
+          caption="@vishal"
+          urlText="Switch"
+          image={image}
+        />
+        <br />
+        <Suggestions />
+      </div>
+    </Sticky>
   )
 }
 

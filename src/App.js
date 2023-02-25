@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Nav />
+        <Nav/>
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/Profile" element={<Profile />} />

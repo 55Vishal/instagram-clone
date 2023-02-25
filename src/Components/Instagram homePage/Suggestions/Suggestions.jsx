@@ -7,7 +7,7 @@ function Suggestions() {
   return (
     <div className="suggestions">
       <div className="titleContainer">
-        <div className="title">Suggestions For You</div>
+        <div className="title1">Suggestions For You</div>
         <a href="/">See All</a>
       </div>
 

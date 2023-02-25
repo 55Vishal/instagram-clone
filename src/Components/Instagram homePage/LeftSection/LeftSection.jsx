@@ -15,7 +15,7 @@ function LeftSection() {
 
 
   const menu = [
-    {id: 1,icon: <FaHouseUser />,Name: <p>Home</p>,},
+    {id: 1,icon: <FaHouseUser />,Name:"Home" ,},
     { id: 2, icon: <FaHashtag />, Name: "Explore" },
     { id: 3, icon: <VscBellDot />, Name: "Notifications" },
     { id: 4, icon: <HiOutlineMail />, Name: "Message" },

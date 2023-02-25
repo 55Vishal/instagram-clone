@@ -1,9 +1,10 @@
-import Cards from '../Cards/Cards';
 import Footer from '../Footer/Footer';
 import Grid from '@mui/material/Grid';
 import LeftSection from '../LeftSection/LeftSection';
 import Profile from '../Profile/Profile';
 import React from 'react'
+import Sidebar from '../Sidebar/Sidebar';
+import StatusBar from '../StatusBar/StatusBar';
 import Suggestions from '../Suggestions/Suggestions';
 
 function MainContent() {
@@ -14,14 +15,13 @@ function MainContent() {
         <LeftSection />
         </Grid>
         <Grid item xs={5}>
+        <StatusBar />
         </Grid>
         <Grid item xs={3}>
-        <Profile />
-        <Suggestions />
+        <Sidebar />
      <Footer />
         </Grid>
         <Grid item xs={2}>
-        
         </Grid>
     </Grid>
     </div>

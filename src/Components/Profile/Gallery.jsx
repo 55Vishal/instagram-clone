@@ -12,6 +12,7 @@ const addPhoto = async()=>{
     url: await getPhotoUrl('#addPhotoInput')
    }
    setAllPhotos([...allPhotos, newPhoto])
+  
 }
   
   return (

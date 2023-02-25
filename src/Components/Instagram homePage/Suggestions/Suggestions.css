@@ -4,19 +4,23 @@
     .titleContainer {
       display: flex;
       justify-content: space-between;
-      font-size: 0.8em;
-      font-weight: 500;
-      /* color: $font-color-secondary; */
+      font-size: 1em;
+      font-weight: ;
+      color: rgb(174, 173, 173);
       margin-bottom: 1.25em;
     }
-      .title {
-        min-width: 200px;
-      }
-  
+      
       a {
         width: 100%;
         text-align: right;
-        color: black;
+        color: rgb(24, 168, 225);
+        text-decoration: none;
+        font-weight: bold;
       }
     
   
+      .title1{
+        color: black;
+        font-weight:bolder;
+        min-width: 200px;
+      }

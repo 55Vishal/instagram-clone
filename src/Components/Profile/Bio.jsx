@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
 
+import { BiArrowBack } from 'react-icons/bi';
 import getPhotoUrl from 'get-photo-url'
 import profileIcon from '../assets/profileIcon.jpg'
+import { useNavigate } from "react-router-dom";
 
 function Bio() {
+    const nevigate = useNavigate();
+
+    
     const [editFormIsOpen, setEditFormIsOpen] = useState(false)
     const [profilePhoto, setprofilePhoto] = useState(profileIcon)
     
@@ -24,7 +29,7 @@ function Bio() {
     const updateProfilePhoto = async()=>{
         const newProfilePhoto = await getPhotoUrl('#profilePhotoInput')
        setprofilePhoto(newProfilePhoto)
-        
+
     }
 
     const editForm = (
@@ -38,6 +43,8 @@ function Bio() {
     )
 
     return (
+        <>
+        <BiArrowBack  onClick={()=> nevigate("/") }  className='back-logo' />
         <section className='bio'>
         <input type="file" accept='images/*' name='photo' id='profilePhotoInput'/>
         <label htmlFor="profilePhotoInput" onClick={updateProfilePhoto}>
@@ -52,6 +59,7 @@ function Bio() {
                 }
             </div>
         </section>
+        </>
     )
 }
 

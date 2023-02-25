@@ -3,7 +3,6 @@ import './StatusBar.css'
 import { Avatar } from '@mui/material'
 import React from 'react'
 import image from '../../assets/pexels1.webp';
-import users from '../../../data/users';
 
 function StatusBar() {
     const users = [
@@ -84,6 +83,7 @@ function StatusBar() {
                         <Avatar className='statusBar_status' src={image}  />
                         <div className='statusBar_text'>
                         {item.username+'...'}
+                        
                         </div>
                 
                         </div>

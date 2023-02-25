@@ -1,3 +1,4 @@
+import Cards from '../Cards/Cards';
 import Footer from '../Footer/Footer';
 import Grid from '@mui/material/Grid';
 import LeftSection from '../LeftSection/LeftSection';
@@ -14,6 +15,7 @@ function MainContent() {
         </Grid>
         <Grid item xs={5}>
          <StatusBar />
+         <Cards />
         </Grid>
         <Grid item xs={3}>
           <Sidebar />

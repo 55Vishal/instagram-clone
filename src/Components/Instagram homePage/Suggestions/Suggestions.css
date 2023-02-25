@@ -5,13 +5,18 @@
       display: flex;
       justify-content: space-between;
       font-size: 1em;
-      font-weight: ;
+      font-weight: bold;
       color: rgb(174, 173, 173);
       margin-bottom: 1.25em;
+    }
+    .profile_icons{
+      display: flex;
+      flex-direction: column;
     }
       
       a {
         width: 100%;
+        
         text-align: right;
         color: rgb(24, 168, 225);
         text-decoration: none;
@@ -23,4 +28,5 @@
         color: black;
         font-weight:bolder;
         min-width: 200px;
+        margin-bottom: 2vh;
       }

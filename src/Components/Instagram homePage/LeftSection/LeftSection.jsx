@@ -15,13 +15,13 @@ function LeftSection() {
 
 
   const menu = [
-    {id: 1,icon: <FaHouseUser />,Name:"Home" ,},
+    { id: 1, icon: <FaHouseUser />, Name: "Home", },
     { id: 2, icon: <FaHashtag />, Name: "Explore" },
     { id: 3, icon: <VscBellDot />, Name: "Notifications" },
     { id: 4, icon: <HiOutlineMail />, Name: "Message" },
     { id: 5, icon: <BsBookmark />, Name: "Bookmarks" },
     { id: 6, icon: <TbFileText />, Name: "Lists" },
-    { id: 7, icon: <BsPerson />, Name: <p onClick={()=> nevigate("/Profile") }>Profile</p> },
+    { id: 7, icon: <BsPerson />, Name: <p onClick={() => nevigate("/Profile")}>Profile</p> },
     { id: 8, icon: <CgMoreO />, Name: "More" },
   ];
 
@@ -31,7 +31,7 @@ function LeftSection() {
         <div className={style.innerContainer}>
           <div className={style.innerContainer2}>
             <div className={style.logo}>
-            <img src={InstaLogo} alt="Instagram" />
+              <img src={InstaLogo} alt="Instagram" />
             </div>
 
             {menu.map((menu, index) => {
@@ -44,10 +44,10 @@ function LeftSection() {
                 </div>
               );
             })}
-           
-           
+
+
           </div>
-         
+
         </div>
       </div>
     </>

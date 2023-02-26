@@ -25,7 +25,7 @@ function Nav() {
           <button>
             <ProfileIcon image={image} storyBorder={true} />
           </button>
-         
+
         </span>
       </nav>
     </div>

@@ -11,7 +11,8 @@ button {
   transition: all 0.2s ease-in-out;
   border-radius: 5px;
 }
-.back-logo{
+
+.back-logo {
   color: black;
   position: absolute;
   top: 10vh;
@@ -19,7 +20,8 @@ button {
   left: 3vw;
   font-weight: bolder;
 }
-.back-logo:hover{
+
+.back-logo:hover {
   color: skyblue;
 }
 
@@ -65,7 +67,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
- 
+
 .nav-links i {
   transform: scale(1.6);
   color: #252525;

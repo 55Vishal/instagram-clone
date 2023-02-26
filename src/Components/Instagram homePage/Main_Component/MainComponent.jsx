@@ -14,8 +14,8 @@ function MainContent() {
           <LeftSection />
         </Grid>
         <Grid item xs={5}>
-         <StatusBar />
-         <Cards />
+          <StatusBar />
+          <Cards />
         </Grid>
         <Grid item xs={3}>
           <Sidebar />

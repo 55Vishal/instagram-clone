@@ -1,29 +1,30 @@
-
-
 .profile {
   margin-top: 1vh;
-    display: flex;
-    align-items: center;
-    font-size: 0.8em;
-    margin-bottom: 0.85em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  margin-bottom: 0.85em;
 }
-    .textContainer {
-      display: flex;
-      flex-direction: column;
-      margin-left: 1em;
-      min-width: 180px;
-    }
-      .accountName {
-        font-weight: bolder;
-        font-size:medium;
-        margin-bottom: 5px;
-        color: black
-      }
-      .accountName:hover {
-          cursor: pointer;
-          text-decoration: underline;
-        }
-      
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  min-width: 180px;
+}
+
+.accountName {
+  font-weight: bolder;
+  font-size: medium;
+  margin-bottom: 5px;
+  color: black
+}
+
+.accountName:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /*   
       .caption {
         color:rgb(160, 159, 159);

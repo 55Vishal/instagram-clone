@@ -8,14 +8,14 @@ function Suggestions() {
     <div className="suggestions">
       <div className="titleContainer">
         <div className="title1">Suggestions For You</div>
-        <a href="/" style={{color:'black'}}>See All</a>
+        <a href="/" style={{ color: 'black' }}>See All</a>
       </div>
 
       <Profile
         caption="Followed by mapvault + 3 more"
         urlText="Follow"
         iconSize="medium"
-       
+
       />
       <Profile
         caption="Followed by dadatlacak + 1 more"

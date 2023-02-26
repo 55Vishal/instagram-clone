@@ -4,17 +4,17 @@ import getPhotoUrl from 'get-photo-url'
 
 function Gallery() {
 
-const [allPhotos, setAllPhotos] = useState([])
+  const [allPhotos, setAllPhotos] = useState([])
 
-const addPhoto = async()=>{
-   const newPhoto = {
-    id: Date.now(),
-    url: await getPhotoUrl('#addPhotoInput')
-   }
-   setAllPhotos([...allPhotos, newPhoto])
-  
-}
-  
+  const addPhoto = async () => {
+    const newPhoto = {
+      id: Date.now(),
+      url: await getPhotoUrl('#addPhotoInput')
+    }
+    setAllPhotos([...allPhotos, newPhoto])
+
+  }
+
   return (
     <>
       <input type="file" name='photo' id='addPhotoInput' />
@@ -22,13 +22,13 @@ const addPhoto = async()=>{
         <i className="add-photo-button fa-solid fa-circle-plus"></i>
       </label>
       <section className='gallery'>
-      {allPhotos.map((photo)=>(
+        {allPhotos.map((photo) => (
 
-        <div className='item' key={photo.id}>
-          <img className='item-image' src={photo.url} alt="" />
-          <button className='delete-button'>Delete</button>
-        </div>
-      ))}  
+          <div className='item' key={photo.id}>
+            <img className='item-image' src={photo.url} alt="" />
+            <button className='delete-button'>Delete</button>
+          </div>
+        ))}
       </section>
     </>
   )

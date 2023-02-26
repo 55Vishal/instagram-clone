@@ -1,87 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-  }
-  
-  body {
-    color: #50b7f5;
-    
-   
-  }
-  .container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  color: #50b7f5;
+
+
+}
+
+.container {
   position: relative;
   display: flex;
   justify-content: flex-end;
   right: 1.6rem;
-  
-  }
-  
-  .sidebarOption {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    gap:0.89rem;
-    padding: 0.2rem 0.5rem;
-    width: max-content;
-   display:inline-flex;
-   text-align: center ;
-    font-family: "TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif";
-  }
-  
-  
-  .sidebarOption h2 {
-    font-weight: 00;
-    font-size: 1.641rem;
-    color: black;
-   
-  }
-  .sidebarOption span{
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-  
-    
-  }
-  .container{
-    gap: 4rem;
-  }
-  .sidebarOption:hover {
-    color: #50b7f5;
-    
-    border-radius: 30px;
-   
-    transition: color 100ms ease-out;
-    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
-  }
-  .innerContainer{
-  position: fixed;
-  }
-  
- 
-  
 
-  .sidebar {
-    color: black;
-    min-width: 15.6rem;
-    margin-top: 2rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    margin-bottom: 1rem;
-  }
-  
-  
-  .logo {
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.89rem;
+  padding: 0.2rem 0.5rem;
+  width: max-content;
+  display: inline-flex;
+  text-align: center;
+  font-family: "TwitterChirp, -apple-system, BlinkMacSystemFont, " Segoe UI", Roboto, Helvetica, Arial, sans-serif";
+}
+
+
+.sidebarOption h2 {
+  font-weight: 00;
+  font-size: 1.641rem;
+  color: black;
+
+}
+
+.sidebarOption span {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+
+
+}
+
+.container {
+  gap: 4rem;
+}
+
+.sidebarOption:hover {
+  color: #50b7f5;
+
+  border-radius: 30px;
+
+  transition: color 100ms ease-out;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+}
+
+.innerContainer {
+  position: fixed;
+}
+
+.sidebar {
+  color: black;
+  min-width: 15.6rem;
+  margin-top: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
   font-weight: 800;
   color: rgb(231, 233, 234);
   padding: 0.2rem 0.5rem;
   margin-left: 1.01rem;
   margin-top: 3rem;
-  
-  }
-  .logo:hover{
-  
-    font-size: larger;
-    size: 50px;
-  }
+
+}
+
+.logo:hover {
+
+  font-size: larger;
+  size: 50px;
+}

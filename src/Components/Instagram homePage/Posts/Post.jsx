@@ -8,9 +8,6 @@ import { BsFillSuitHeartFill } from 'react-icons/bs';
 import { FaRegBookmark } from 'react-icons/fa';
 import Profile from '../Profile/Profile'
 
-// import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-
-
 function Post(props) {
     const [color, setColor] = useState(false)
 
@@ -34,7 +31,7 @@ function Post(props) {
                 <div className='post_icons'>
                     <div className='post_icons1'>
                         <BsFillSuitHeartFill onClick={handleLike} className='AiOutlineHeart'
-                            style={{ color: color ? 'red' : '' }}
+                            style={{ color: color ? 'red' : 'gray' }}
                         />
                         <BsChat className='BsChat' />
                         <BiNavigation className='BiNavigation' />

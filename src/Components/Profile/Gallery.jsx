@@ -13,9 +13,6 @@ const addPhoto = async()=>{
     url: await getPhotoUrl('#addPhotoInput')
    }
    setAllPhotos([...allPhotos, newPhoto])
-   
-  //  setAllPhotos(localStorage.setItem('Photos', JSON.stringify([...allPhotos, newPhoto])))
-
   
 }
   
@@ -33,7 +30,7 @@ const addPhoto = async()=>{
         <div className='item' key={photo.id}>
           <img className='item-image' src={photo.url} alt="" />
 
-          <button className='delete-button'>Delete</button>
+          {/*<button className='delete-button'>Delete</button>*/}
         </div>
       ))}  
       </section>

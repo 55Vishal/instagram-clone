@@ -1,14 +1,17 @@
 .suggestions {
   margin-top: 1.25em;
+  z-index: -1;
 }
 
 .titleContainer {
   display: flex;
   justify-content: space-between;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: bold;
   color: rgb(174, 173, 173);
   margin-bottom: 1.25em;
+  z-index: -1;
+
 }
 
 .profile_icons {
@@ -18,8 +21,7 @@
 
 a {
   width: 100%;
-
-  text-align: right;
+  margin-left: 6vw;
   color: rgb(24, 168, 225);
   text-decoration: none;
   font-weight: bold;
@@ -28,7 +30,7 @@ a {
 
 .title1 {
   color: black;
-  font-weight: bolder;
+  font-weight: bold;
   min-width: 200px;
   margin-bottom: 2vh;
 }

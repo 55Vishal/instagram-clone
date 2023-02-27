@@ -32,7 +32,7 @@ function LeftSection() {
         <div className={style.innerContainer}>
           <div className={style.innerContainer2}>
             <div className={style.logo}>
-              <img src={InstaLogo} alt="Instagram" />
+              <img src={InstaLogo} alt="Instagram" style={{marginBottom: '4vh'}}/>
             </div>
 
             {menu.map((menu, index) => {

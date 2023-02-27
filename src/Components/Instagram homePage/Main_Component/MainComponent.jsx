@@ -17,12 +17,10 @@ function MainContent() {
           <StatusBar />
           <Cards />
         </Grid>
-        <Grid item xs={3}>
-          <Sidebar />
-          <Footer />
+        <Grid item xs={1}>
         </Grid>
-        <Grid item xs={2}>
-        </Grid>
+        <Sidebar />
+         
       </Grid>
     </div>
   )

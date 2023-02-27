@@ -8,7 +8,7 @@ function Suggestions() {
     <div className="suggestions">
       <div className="titleContainer">
         <div className="title1">Suggestions For You</div>
-        <a href="/" style={{ color: 'black' }}>See All</a>
+        <a href="/" style={{ color: 'black',marginLeft: '8vw' }}>See All</a>
       </div>
 
       <Profile

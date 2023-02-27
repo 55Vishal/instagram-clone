@@ -7,8 +7,6 @@
 
 body {
   color: #50b7f5;
-
-
 }
 
 .container {
@@ -16,6 +14,7 @@ body {
   display: flex;
   justify-content: flex-end;
   right: 1.6rem;
+  margin-top: 10vh;
 
 }
 
@@ -25,7 +24,7 @@ body {
   cursor: pointer;
   gap: 0.89rem;
   padding: 0.2rem 0.5rem;
-  width: max-content;
+  width: 10vw;
   display: inline-flex;
   text-align: center;
   font-family: "TwitterChirp, -apple-system, BlinkMacSystemFont, " Segoe UI", Roboto, Helvetica, Arial, sans-serif";
@@ -33,7 +32,7 @@ body {
 
 
 .sidebarOption h2 {
-  font-weight: 00;
+
   font-size: 1.641rem;
   color: black;
 
@@ -41,10 +40,8 @@ body {
 
 .sidebarOption span {
   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-
-
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .container {
@@ -53,9 +50,7 @@ body {
 
 .sidebarOption:hover {
   color: #50b7f5;
-
   border-radius: 30px;
-
   transition: color 100ms ease-out;
   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
 }
@@ -66,19 +61,19 @@ body {
 
 .sidebar {
   color: black;
-  min-width: 15.6rem;
-  margin-top: 2rem;
+  min-width: 1rem;
+  margin-top: 0rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   margin-bottom: 1rem;
 }
 
 .logo {
-  font-weight: 800;
+  font-weight: 500;
   color: rgb(231, 233, 234);
   padding: 0.2rem 0.5rem;
   margin-left: 1.01rem;
-  margin-top: 3rem;
+  margin-top: -1rem;
 
 }
 

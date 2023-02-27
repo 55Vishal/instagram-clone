@@ -13,25 +13,20 @@ function ImgCard() {
     <section className='gallery'>
       <div className='item'>
         <img className='item-image' src={image1} alt="" />
-        <button className='delete-button'>Delete</button>
       </div>
       <div className='item'>
       <img className='item-image' src={image2} alt="" />
-      <button className='delete-button'>Delete</button>
     </div>
     <div className='item'>
     <img className='item-image' src={image3} alt="" />
-    <button className='delete-button'>Delete</button>
   </div>
   <div className='item'>
     <img className='item-image' src={image4} alt="" />
-    <button className='delete-button'>Delete</button>
   </div><div className='item'>
   <img className='item-image' src={image5} alt="" />
-  <button className='delete-button'>Delete</button>
 </div><div className='item'>
 <img className='item-image' src={image6} alt="" />
-<button className='delete-button'>Delete</button>
+
 </div>
     ) 
     </section>

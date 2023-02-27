@@ -1,12 +1,11 @@
 .statusBar__container {
     display: flex;
-    margin-top: 5vh;
-    height: 120px;
+    margin-top: 7.5vh;
+    height: 98px;
     width: 615px;
     background-color: white;
     border: 1px solid rgb(246, 243, 243);
     overflow-x: scroll;
-
 }
 
 .statusBar__container::-webkit-scrollbar {
@@ -14,13 +13,13 @@
 }
 
 .statusBar_status {
-    min-height: 55px;
-    min-width: 55px;
+    min-height: 40px;
+    min-width: 40px;
     border: 3px solid rgb(235, 70, 97);
 }
 
 .status {
-    margin: 25px 10px;
+    margin: 15px 10px;
 
 }
 

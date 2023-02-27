@@ -29,9 +29,9 @@ function Bio() {
     const updateProfilePhoto = async () => {
         const newProfilePhoto = await getPhotoUrl('#profilePhotoInput')
         setprofilePhoto(newProfilePhoto)
+        
 
     }
-
     const editForm = (
         <form className='edit-bio-form' onSubmit={updateUser}>
             <input type="text" id='' name='name' placeholder='Your name' />
@@ -41,8 +41,7 @@ function Bio() {
             <button className='cancel-button' type='button' onClick={() => setEditFormIsOpen(false)}>Cancel</button>
         </form>
     )
-
-    return (
+return (
         <>
             <BiArrowBack onClick={() => navigate("/")} className='back-logo' />
             <section className='bio'>

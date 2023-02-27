@@ -14,8 +14,8 @@
 }
 
 .accountName {
-  font-weight: bolder;
-  font-size: medium;
+  font-weight: bold;
+  font-size: 1.1em;
   margin-bottom: 5px;
   color: black
 }

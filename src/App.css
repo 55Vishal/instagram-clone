@@ -1,6 +1,6 @@
 body {
   background-color: #fbf9f9;
-  margin: 0;
+  
 }
 
 button {
@@ -32,7 +32,7 @@ nav {
   display: grid;
   top: 0;
   background-color: #fff;
-  height: 4.4em;
+  height: 3em;
   line-height: 3.3em;
   width: 100%;
   border-bottom: 0.1em solid #dbdbdb;
@@ -50,7 +50,7 @@ nav {
 
 .search {
   background: #fafafa;
-  height: 2em;
+  height: 1.5em;
   margin: 0.8em;
   width: 15.5em;
   border: 0.07em solid #dbdbdb;
@@ -60,7 +60,6 @@ nav {
 .search::placeholder {
   text-align: center;
   color: #808080;
-  font-weight: bold;
 }
 
 .nav-links {
@@ -83,7 +82,7 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   padding: 3em 0 2em 5em;
   border-bottom: 0.2px solid #dbdbdb;
-  margin-top: 5em;
+  margin-top: 4em;
   margin-bottom: 2em;
 }
 
@@ -93,8 +92,8 @@ nav {
 
 .profile-photo {
   background: #000;
-  width: 10em;
-  height: 10em;
+  width: 6em;
+  height: 6em;
   border-radius: 50%;
   margin-top: 0.5em;
 }
@@ -121,13 +120,13 @@ nav {
 }
 
 .profile-info .name {
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: #545454;
   margin-bottom: 1.5vh;
 }
 
 .profile-info .about {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #545454;
   margin-bottom: 1.5vh;
 
@@ -136,7 +135,7 @@ nav {
 .profile-info button {
   background-color: #0095f6;
   color: #fff;
-  font-size: 1.1em;
+  font-size: 0.8em;
   width: 6em;
   height: 2em;
 }

@@ -3,7 +3,7 @@ import './Cards.css'
 import Post from '../Posts/Post'
 import React from 'react'
 
-function Cards(props) {
+function Cards() {
   return (
     <div>
       <Post id='1' postImage="https://loremflickr.com/1234/2345/animals" likes='4232' commit='513' />

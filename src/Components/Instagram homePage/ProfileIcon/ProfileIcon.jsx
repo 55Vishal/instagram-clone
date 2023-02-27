@@ -21,8 +21,8 @@ function ProfileIcon(props) {
         onClick={() => nevigate("/Profile")}
         style={{
           borderRadius: "111px",
-          width: '44px',
-          height: '44px',
+          width: '35px',
+          height: '35px',
         }}
         className={`styles.profileIcon ${iconSize}`}
         src={profileImage}

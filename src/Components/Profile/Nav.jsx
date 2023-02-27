@@ -2,8 +2,10 @@ import ProfileIcon from '../Instagram homePage/ProfileIcon/ProfileIcon'
 import React from 'react'
 import image from '../assets/pexels1.webp';
 import instagramTitle from '../assets/Instagram-title.png'
+import { useNavigate } from 'react-router-dom';
 
 function Nav() {
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -14,7 +16,7 @@ function Nav() {
         <input className='search' type="text" placeholder='Search...' />
         <span className='nav-links'>
           <button>
-            <i className='fas fa-home' />
+            <i className='fas fa-home' onClick={() => navigate('/')} />
           </button>
           <button>
             <i className='fas fa-comment-alt'></i>

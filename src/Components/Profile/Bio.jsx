@@ -6,7 +6,7 @@ import profileIcon from '../assets/profileIcon.jpg'
 import { useNavigate } from "react-router-dom";
 
 function Bio() {
-    const nevigate = useNavigate();
+    const navigate = useNavigate();
 
 
     const [editFormIsOpen, setEditFormIsOpen] = useState(false)
@@ -44,7 +44,7 @@ function Bio() {
 
     return (
         <>
-            <BiArrowBack onClick={() => nevigate("/")} className='back-logo' />
+            <BiArrowBack onClick={() => navigate("/")} className='back-logo' />
             <section className='bio'>
                 <input type="file" accept='images/*' name='photo' id='profilePhotoInput' />
                 <label htmlFor="profilePhotoInput" onClick={updateProfilePhoto}>

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import ImgCard from './ImgCard'
 import getPhotoUrl from 'get-photo-url'
-import image from '../assets/pexels2.webp'
 
 function Gallery() {
 

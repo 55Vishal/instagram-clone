@@ -1,12 +1,13 @@
 import { BsBookmark, BsPerson } from "react-icons/bs";
-import { FaHashtag, FaHouseUser } from "react-icons/fa";
 
+import { AiOutlineHeart } from "react-icons/ai";
 import { CgMoreO } from "react-icons/cg";
-import { HiOutlineMail } from "react-icons/hi";
+import { FaHouseUser } from "react-icons/fa";
 import InstaLogo from '../../assets/Instagram-title.png'
+import { MdExplore } from "react-icons/md";
 import React from "react";
+import { RiMessengerLine } from "react-icons/ri";
 import { TbFileText } from "react-icons/tb";
-import { VscBellDot } from "react-icons/vsc";
 import style from './LeftSection.module.css'
 import { useNavigate } from "react-router-dom";
 
@@ -16,9 +17,9 @@ function LeftSection() {
 
   const menu = [
     { id: 1, icon: <FaHouseUser />, Name: "Home", },
-    { id: 2, icon: <FaHashtag />, Name: "Explore" },
-    { id: 3, icon: <VscBellDot />, Name: "Notifications" },
-    { id: 4, icon: <HiOutlineMail />, Name: "Message" },
+    { id: 2, icon: <MdExplore />, Name: "Explore" },
+    { id: 3, icon: <AiOutlineHeart />, Name: "Notifications" },
+    { id: 4, icon: <RiMessengerLine />, Name: "Message" },
     { id: 5, icon: <BsBookmark />, Name: "Bookmarks" },
     { id: 6, icon: <TbFileText />, Name: "Lists" },
     { id: 7, icon: <BsPerson />, Name: <p onClick={() => nevigate("/Profile")}>Profile</p> },

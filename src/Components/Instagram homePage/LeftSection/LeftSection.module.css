@@ -40,8 +40,9 @@ body {
 
 .sidebarOption span {
   font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: bolder;
+
 }
 
 .container {

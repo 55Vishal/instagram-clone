@@ -1,5 +1,4 @@
 import Cards from '../Cards/Cards';
-import Footer from '../Footer/Footer';
 import Grid from '@mui/material/Grid';
 import LeftSection from '../LeftSection/LeftSection';
 import React from 'react'
@@ -9,17 +8,18 @@ import StatusBar from '../StatusBar/StatusBar';
 function MainContent() {
   return (
     <div>
-      <Grid container style={{ marginTop: '6vh' }}>
+      <Grid container style={{ marginTop: '2vh' }}>
         <Grid item xs={2}>
           <LeftSection />
         </Grid>
-        <Grid item xs={5}>
+        <Grid style={{ marginLeft: '5vh' }} item xs={5}>
           <StatusBar />
           <Cards />
         </Grid>
-        <Grid item xs={1}>
-        </Grid>
+        <Grid item xs={3} style={{ marginLeft: '5vh' }}>
         <Sidebar />
+        
+        </Grid>
          
       </Grid>
     </div>

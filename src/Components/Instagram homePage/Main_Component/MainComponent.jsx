@@ -12,11 +12,11 @@ function MainContent() {
         <Grid item xs={2}>
           <LeftSection />
         </Grid>
-        <Grid style={{ marginLeft: '5vh' }} item xs={5}>
+        <Grid style={{ marginLeft: '5vh',width:'2vw'}} item xs={5}>
           <StatusBar />
           <Cards />
         </Grid>
-        <Grid item xs={3} style={{ marginLeft: '5vh' }}>
+        <Grid item xs={3} style={{ marginLeft: '15vh' }}>
         <Sidebar />
         
         </Grid>

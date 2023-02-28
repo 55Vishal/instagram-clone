@@ -6,8 +6,8 @@ import React from 'react'
 function Cards() {
   return (
     <div>
-      <Post id='1' postImage="https://loremflickr.com/1234/2345/animals" likes='4232' commit='513' />
-      <Post id='2' postImage="https://i.pravatar.cc/400" likes='8367' commit='179' />
+    <Post id='1' postImage="https://i.pravatar.cc/400" likes='8367' commit='179' />
+      <Post id='2' postImage="https://loremflickr.com/1234/2345/animals" likes='4232' commit='513' />
       <Post id='3' postImage="https://loremflickr.com/1234/2345/city" likes='5463' commit='231' />
       <Post id='4' postImage='https://loremflickr.com/1234/2345/fashion' likes='3241' commit='123' />
       <Post id='2' postImage="https://i.pravatar.cc/300" likes='8367' commit='91' />
